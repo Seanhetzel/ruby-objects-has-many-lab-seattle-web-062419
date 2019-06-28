@@ -5,6 +5,7 @@ class Author
 
   def initialize(name)
     @name = name
+    binding.pry
   end
 
   def posts
