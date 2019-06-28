@@ -21,6 +21,9 @@ class Post
   def author_name
     if author.name.is_a(String)
       author.name
+    else
+      nil
+    end
   end
 
   def self.all
