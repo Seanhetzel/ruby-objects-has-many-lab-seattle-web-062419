@@ -6,23 +6,23 @@ class Author
     @name = name
   end
 
-  def songs
-    Song.all.select do |song|
-      song.artist == self
+  def posts
+    Post.all.select do |post|
+      post.author == self
     end
   end
 
-  def add_song(song)
-    song.artist = self
+  def add_post(post)
+    post.author = self
   end
 
-  def add_song_by_name(name)
+  def add_post_by_name(name)
     #song = Song.new(name)
-    new_song = Song.new(name)
-    new_song.artist = self
+    new_post = Post.new(name)
+    new_post.author = self
   end
 
-  def self.song_count
-    Song.all.count
+  def self.post_count
+    Post.all.count
   end
 end
