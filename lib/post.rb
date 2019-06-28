@@ -18,11 +18,7 @@ class Post
   end
 
   def author_name
-    if self.author.include?(author.name)
-      author.name
-    else
-      nil
-    end
+    author.name
   end
 
   def self.all
