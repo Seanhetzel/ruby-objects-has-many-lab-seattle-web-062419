@@ -20,6 +20,10 @@ class Artist
     #song = Song.new(name)
     new_song = Song.new(name)
     new_song.artist = self
-
   end
+
+  def self.song_count
+    Song.all 
+  end
+    
 end
