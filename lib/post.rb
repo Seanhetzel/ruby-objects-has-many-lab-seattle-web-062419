@@ -20,9 +20,9 @@ class Post
 
   def author_name
     author.name
-    binding.pry
-  end
 
+  end
+  binding.pry
   def self.all
     @@all
   end
