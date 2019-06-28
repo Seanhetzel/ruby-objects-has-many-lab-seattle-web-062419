@@ -19,14 +19,7 @@ class Post
   end
 
   def author_name
-    if author.name.is_a?(String)
-
-      author.name
-      binding.pry
-    else
-      binding.pry
-      nil
-    end
+    artists
   end
 
   def self.all
