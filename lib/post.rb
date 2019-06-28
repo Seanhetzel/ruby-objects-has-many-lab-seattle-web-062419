@@ -22,6 +22,7 @@ class Post
     if author.name.is_a?(String)
 
       author.name
+      binding.pry
     else
       binding.pry
       nil
