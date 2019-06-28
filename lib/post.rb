@@ -20,7 +20,7 @@ class Post
 
   def author_name
     if author.name.is_a?(String)
-      pry
+      binding.pry
       author.name
     else
       nil
