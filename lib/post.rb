@@ -19,7 +19,7 @@ class Post
   end
 
   def author_name
-    if author.name.instance_of?(Author)
+    if name.instance_of?(Author)
       author.name
     else
       nil
