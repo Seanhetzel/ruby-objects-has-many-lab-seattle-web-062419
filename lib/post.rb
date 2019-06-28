@@ -22,7 +22,7 @@ class Post
     author.name
 
   end
-  binding.pry
+  
   def self.all
     @@all
   end
