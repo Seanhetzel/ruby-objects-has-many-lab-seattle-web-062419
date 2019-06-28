@@ -19,7 +19,13 @@ class Post
   end
 
   def author_name
-    artists
+    Artist.all.each do |artist|
+      if artist.include?(artist.name)
+        artist_name
+      else
+        nil
+      end
+    end
   end
 
   def self.all
