@@ -20,7 +20,6 @@ class Post
 
   def author_name
     if Author.name == author.name
-    binding.pry
   end
 
   def self.all
