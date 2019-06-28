@@ -18,7 +18,7 @@ class Post
   end
 
   def author_name
-    @author.to_s
+    
   end
 
   def self.all
