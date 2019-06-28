@@ -19,7 +19,7 @@ class Post
   end
 
   def author_name
-    if author.name.valid?
+    if author.name == "Sophie"
       author.name
     else
       nil
