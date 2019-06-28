@@ -1,4 +1,4 @@
-class Artist
+class Author
 
   attr_reader :name
 
