@@ -19,7 +19,7 @@ class Post
   end
 
   def author_name
-    #if Author.name == author.name
+    if author.name.is_a()
   end
 
   def self.all
