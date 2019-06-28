@@ -19,7 +19,7 @@ class Post
   end
 
   def author_name
-    if author.name == "Sophie"
+    if author.respond_to?(name)
       author.name
     else
       nil
